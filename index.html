@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest.json">
+    <title>Qr Code Generator</title>
+</head>
+<body class=" h-screen flex items-center justify-center bg-gray-700 flex-col ">
+    
+    <div id="container" class=" flex  bg-white  text-center items-center justify-center rounded-md">
+
+        <div id="wrap">
+            
+             <p class="pb-6 pt-6 font-bold text-2xl" >QR Generator </p>
+        <input type="text" class="border mb-8 p-2 ml-16 mr-16"  placeholder="Enter here
+        " id="inputEl">
+       <img  id="imgsrc" src="" class="w-56 h-32 pb-6 pl-24" alt="QR will be generated here">
+
+        <button class="bg-blue-500 p-2 rounded-xl mb-10 pt-2 pl-8 pr-8 hover:text-white hover:bg-blue-600" id="generateqr">Generate QR Code</button>
+
+        </div>
+        
+    </div>
+
+    <footer>
+        <p class="pt-24 text-white">Made by  Nishant ❤️</p>
+    </footer>
+ <script src="app.js"></script>
+</body>
+</html>
